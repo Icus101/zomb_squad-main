@@ -1,0 +1,41 @@
+.zm-bg {
+  background-color: rgb(64, 64, 64);
+  padding: 3rem 0;
+}
+
+.zombsquad-market {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.zm-about-zomb-left,
+.zm-left-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zm-after-top-txt {
+  font-size: 16px;
+  font-family: poppins-extralight, poppins, sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 2rem;
+  line-height: 1.5em;
+}
+
+.zmh1 h5{
+font-style: italic;
+  font-size: 20px;
+  color: #ccff00;
+  font-family: poppins-semibold, poppins, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
+}

@@ -1,0 +1,153 @@
+.jc-heder {
+  font-family: poppins-extralight, poppins, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.jc-heder div:first-child {
+  color: rgb(191, 191, 191);
+}
+
+.jc-heder div:last-child {
+  color: #ccff00;
+}
+
+.jc-content::before {
+  content: "";
+  height: 3px;
+  width: 150px;
+  color: #000;
+  background-color: #000;
+  position: absolute;
+  left: calc(50% - 70px);
+  transform: rotate(90deg);
+}
+
+.jc-content {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+.jc-ci {
+  background-color: #ccff00;
+  border-radius: 15px;
+}
+
+.jc-ci {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 4%;
+}
+
+.jc-i {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jc-i div:first-child img {
+  width: 80%;
+}
+
+.jc-i div:last-child {
+  margin-left: 5%;
+}
+
+.jc-i div:last-child a div {
+  border: 0;
+  outline: none;
+  transition: all 0.2s ease, visibility 0s;
+  background: #000000;
+  border-radius: 30px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  font-family: poppins-semibold, poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  width: 200px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.jc-i div:last-child a div:hover {
+  border: 0;
+  outline: none;
+  transition: all 0.2s ease, visibility 0s;
+  color: #000000;
+  border-radius: 30px;
+  letter-spacing: 0.1em;
+  background: #ffffff;
+  font-family: poppins-semibold, poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  width: 200px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 751px) {
+  .jc-i div:first-child img {
+    width: 60px;
+  }
+  .jc-i div:last-child a div {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    width: 150px;
+    padding: 5% 0;
+  }
+
+  .jc-i div:last-child {
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .jc-content::before {
+    display: none;
+  }
+
+  .jc-ci {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 4%;
+  }
+
+  .jc-i div:first-child img {
+    width: 50px;
+  }
+  .jc-i div:last-child a div {
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    width: 200px;
+    padding: 1rem 0;
+  }
+
+  .jc-i div:last-child {
+    margin-left: 0.5rem;
+  }
+
+  .middle-line {
+    margin-top: 3rem;
+  }
+
+  .middle-line::before {
+    content: "";
+    height: 3px;
+    width: 200px;
+    color: #000;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 100px);
+  }
+}

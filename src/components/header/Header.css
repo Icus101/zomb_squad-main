@@ -1,0 +1,26 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+
+.header-wrapper .logo img {
+  width: 50px;
+  height: 55px;
+}
+
+.font-logo h2 {
+  font-size: 28px;
+}
+
+.font-left {
+  font-family: "TheDeadAreComing";
+  color: rgb(191, 191, 191);
+}
+
+.font-right {
+  font-family: "TheDeadAreComing";
+  color: #ccff00;
+}

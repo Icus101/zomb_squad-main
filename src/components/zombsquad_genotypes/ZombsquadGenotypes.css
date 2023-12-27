@@ -1,0 +1,35 @@
+.zg-bg {
+  background-color: rgb(204, 255, 0);
+  padding: 5rem 0;
+}
+
+.zg-top-txt div {
+  font-style: italic;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: poppins-semibold, poppins, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.zg-top-txt div:first-child {
+  color: rgb(64, 64, 64);
+}
+
+.zg-top-txt div:last-child {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.zg-content {
+  margin-top: 3rem;
+}
+
+.zg-content div {
+  font-family: poppins-extralight, poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}

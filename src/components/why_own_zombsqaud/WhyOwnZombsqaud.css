@@ -1,0 +1,61 @@
+.own-zomb-green {
+  color: #ccff00;
+  font-family: poppins-extralight, poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.own-zomb-white {
+  color: rgb(255, 255, 255);
+  font-family: poppins-extralight, poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.woz-img-row-1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  height: 190px;
+}
+
+.wir1 {
+  position: relative;
+  top: -40px;
+  bottom: 0;
+}
+
+.woz-img-row-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wir2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wir-w {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.wir-g {
+  color: #ccff00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.woz-img-row-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
